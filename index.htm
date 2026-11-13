@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EZMin Test Sandbox</title>
+  <link rel="stylesheet" href="src/ez-min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1>Workspace</h1>
+		<p>Testing the <code>EZMin</code> class layout lifecycle.</p>
+	</header>
+
+	<main class="workspace-layout">
+		
+		<!-- Test Target 1: Sidebar -->
+		<aside id="sidebar-panel" class="box-element">
+			<div class="panel-header">
+				<h2>Navigation</h2>
+				<!-- Minimize button will inject here via selector -->
+			</div>
+			<ul class="panel-body">
+				<li>Dashboard</li>
+				<li>Analytics</li>
+				<li>Settings</li>
+			</ul>
+		</aside>
+
+		<!-- Test Target 2: Generic Content Box -->
+		<section id="content-panel" class="box-element main-content">
+			<div class="panel-header">
+				<h2>Main Workspace View</h2>
+			</div>
+			<div class="panel-body">
+				<p>This panel uses direct target button insertion without header targeting.</p>
+			</div>
+		</section>
+
+	</main>
+
+	<!-- Include the core script file -->
+	<script src="src/EZMin.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

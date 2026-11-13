@@ -1,0 +1,35 @@
+/* EZMin CSS */
+
+/* EZMin State Engine */
+[data-minimized="true"] {
+	display: none !important;
+}
+
+/* Base Minimize Button Styling */
+.minimize-btn {
+	border: none;
+	padding: 4px 8px;
+	background: #f0f1f2;
+	border-radius: 4px;
+	font-size: 0.9rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.minimize-btn:hover {
+	background: #e1e4e6;
+	color: #ff3b30;
+}
+
+/* Base Restore Button Styling */
+.restore-btn {
+	border: none;
+	padding: 6px 12px;
+	background: #007aff;
+	border-radius: 4px;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+.restore-btn:hover {
+	background: #0056b3;
+}

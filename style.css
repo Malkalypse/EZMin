@@ -1,0 +1,79 @@
+/* Base Setup Layout */
+.workspace-layout {
+  /* Layout */
+	display: flex;
+	align-items: flex-start;
+
+  /* Spacing */
+	gap: 20px;
+}
+
+/* Base Component Styling */
+.box-element {
+	min-width: 240px;
+
+	border: 1px solid #e1e4e6;
+	padding: 16px;
+
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.main-content {
+	flex-grow: 1;
+}
+
+.panel-header {
+
+  /* Layout */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+  /* Spacing */
+	margin-bottom: 12px;
+	border-bottom: 1px solid #f0f1f2;
+	padding-bottom: 8px;
+}
+
+.panel-header h2 {
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+.minimize-btn.text-btn {
+  /* Layout */
+	display: block;
+	width: 100%;
+
+  /* Spacing */
+	margin-top: 16px;
+	text-align: center;
+}
+
+/* Floated Sidebar Plus Action style option */
+.blue-circle {
+  /* Positioning */
+	top: 20px;
+	right: 20px;
+
+  /* Layout */
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+
+  /* Display */
+	border-radius: 50%;
+	box-shadow: 0 4px 12px rgba(0,122,255,0.3);
+	font-size: 1.5rem;
+}
+
+/* Link Variant */
+.restore-btn.text-link {
+	padding: 0;
+	background: transparent;
+	color: #007aff;
+	text-decoration: underline;
+}
